@@ -1,11 +1,13 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1793278204
+::res://::1793278944
 ::res://assets/::1793278192
 ::res://assets/sprites/::1793278193
 icon.svg::CompressedTexture2D::2113757926995680096::1786995468::1793278193::1::::<><><>0<>0<>07bd44b001c93283950a6c7d5775fbc2<>res://.godot/imported/icon.svg-00a55f41757400f7387d4069be498893.ctex::
 Monsters-1.jpg::CompressedTexture2D::8448011633067901291::1793277197::1793277198::1::::<><><>0<>0<>3617b9ac3cf2937b5c4b399493c934de<>res://.godot/imported/Monsters-1.jpg-8b42a87651e6435b29def19b439a3097.ctex::
-::res://scenes/::1793277899
-AudioManager.tscn::PackedScene::8538349818797012894::1793278505::0::1::::<><><>0<>0<><>::
+::res://scenes/::1793278568
+AudioManager.tscn::PackedScene::8538349818797012894::1793278536::0::1::::<><><>0<>0<><>::
 MainMenu.tscn::PackedScene::9066453190393844290::1793277899::0::1::::<><><>0<>0<><>::uid://dsmjrubajevt8::::res://assets/sprites/Monsters-1.jpg
+::res://scripts/::1793278938
+audio_manager.gd::GDScript::1613827365840880301::1793278568::0::1::::<>Node2D<><>0<>0<><>::
 ::res://sfx/::1793278219
 534195__zhr__sci-fi-music.mp3::AudioStreamMP3::7386870173191897132::1793278219::1793278219::1::::<><><>0<>0<>1bcfe0f6c7234b3e560f327525e929a0<>res://.godot/imported/534195__zhr__sci-fi-music.mp3-c0b43e78e4b59f35c009a94b7bffbf97.mp3str::
