@@ -57,21 +57,25 @@ offset_right = 122.0
 offset_bottom = 112.0
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_constants/separation = 6
 
 [node name="StartButton" type="Button" parent="VBoxContainer" unique_id=1795163015]
 layout_mode = 2
+size_flags_vertical = 3
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_styles/normal = SubResource("StyleBoxFlat_n72wn")
 text = "Start"
 
 [node name="OptionsButton" type="Button" parent="VBoxContainer" unique_id=1479310]
 layout_mode = 2
+size_flags_vertical = 3
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_styles/normal = SubResource("StyleBoxFlat_vo2e6")
 text = "Options"
 
 [node name="ExitButton" type="Button" parent="VBoxContainer" unique_id=450881392]
 layout_mode = 2
+size_flags_vertical = 3
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_styles/normal = SubResource("StyleBoxFlat_tw2u3")
 text = "Exit"
