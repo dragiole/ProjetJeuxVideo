@@ -1,9 +1,9 @@
 [gd_scene format=3 uid="uid://d2f4foj4hmscg"]
 
-[ext_resource type="Texture2D" uid="uid://dsmjrubajevt8" path="res://assets/sprites/Monsters-1.jpg" id="1_28flt"]
+[ext_resource type="Texture2D" uid="uid://dsmjrubajevt8" path="res://assets/sprites/Monsters-1.jpg" id="1_yqorp"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_n72wn"]
-texture = ExtResource("1_28flt")
+texture = ExtResource("1_yqorp")
 modulate_color = Color(0.45840502, 0.45840508, 0.45840502, 1)
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_n72wn"]

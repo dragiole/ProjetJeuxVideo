@@ -2,3 +2,7 @@ res://Scenes/main_menu.tscn
 res://scenes/main_menu.tscn
 res://scenes/AudioManager.tscn
 res://scripts/SoundSystem.gd
+res://scripts/AudioManager.gd
+res://scripts/SoundSystemSettings.gd
+res://scripts/AudioManagerAddSoundEffects.gd
+res://scenes/MainMenu.tscn
