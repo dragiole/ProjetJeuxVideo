@@ -1,0 +1,63 @@
+[gd_scene format=3 uid="uid://d4gk6wksk2b8v"]
+
+[ext_resource type="Script" uid="uid://j331qfxl3xov" path="res://scripts/player.gd" id="1_g2els"]
+[ext_resource type="Texture2D" uid="uid://do1w3jj16xx3k" path="res://assets/SpriteSheet/Ants.png" id="2_qhqgy"]
+
+[sub_resource type="Animation" id="Animation_g2els"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [24]
+}
+
+[sub_resource type="Animation" id="Animation_qhqgy"]
+resource_name = "WalkRight"
+length = 0.6
+loop_mode = 1
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Sprite2D:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.13333334, 0.3),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 1,
+"values": [24, 25, 26]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_dqkch"]
+_data = {
+&"RESET": SubResource("Animation_g2els"),
+&"WalkRight": SubResource("Animation_qhqgy")
+}
+
+[node name="Player" type="CharacterBody2D" unique_id=17720020]
+script = ExtResource("1_g2els")
+metadata/_edit_group_ = true
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1614700105]
+position = Vector2(0.9999981, 0.9999962)
+scale = Vector2(0.30046296, 0.28515634)
+texture = ExtResource("2_qhqgy")
+hframes = 12
+vframes = 8
+frame = 24
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=394457881]
+zoom = Vector2(5, 5)
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="." unique_id=666381170]
+polygon = PackedVector2Array(-7, 14, 9, 13, 6, -2, -6, -2)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=575706190]
+libraries/ = SubResource("AnimationLibrary_dqkch")

@@ -6,3 +6,5 @@ res://scenes/menu/option_menu.tscn
 res://scripts/main_menu.gd
 res://Scenes/world.tscn
 res://player.gd
+res://scenes/player.tscn
+res://scripts/player.gd
