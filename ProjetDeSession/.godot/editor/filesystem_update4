@@ -1,4 +1,3 @@
+res://assets/TileSetComplete/Layer_1.tres
 res://scenes/MainMenu.tscn
-res://scripts/AudioManager.gd
-res://scripts/AudioManagerAddSoundEffects.gd
-res://scripts/SoundSystemSettings.gd
+res://Scenes/world.tscn

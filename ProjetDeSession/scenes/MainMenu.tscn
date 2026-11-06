@@ -1,6 +1,7 @@
 [gd_scene format=3 uid="uid://d2f4foj4hmscg"]
 
 [ext_resource type="Texture2D" uid="uid://dsmjrubajevt8" path="res://assets/sprites/Monsters-1.jpg" id="1_yqorp"]
+[ext_resource type="AudioStream" uid="uid://ddiiw4ou8thv5" path="res://audio/music/534195__zhr__sci-fi-music.mp3" id="2_0ykhv"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_n72wn"]
 texture = ExtResource("1_yqorp")
@@ -96,3 +97,6 @@ grow_vertical = 0
 theme_override_font_sizes/font_size = 39
 text = "Placeholder Name"
 horizontal_alignment = 1
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="." unique_id=333930559]
+stream = ExtResource("2_0ykhv")
