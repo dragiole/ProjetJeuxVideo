@@ -1,3 +1,6 @@
+res://scenes/menu/MainMenu.tscn
 res://assets/TileSetComplete/Layer_1.tres
-res://scenes/MainMenu.tscn
-res://Scenes/world.tscn
+res://scenes/menu/main_menu.gd
+res://option_menu.gd
+res://scenes/menu/option_menu.tscn
+res://scripts/main_menu.gd
