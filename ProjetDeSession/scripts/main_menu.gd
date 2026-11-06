@@ -5,7 +5,7 @@ extends Control
 @onready var start_button : Button = %StartButton
 @onready var options_button : Button = %OptionsButton
 @onready var exit_button : Button = %ExitButton
-
+@onready var music : AudioStreamPlayer
 
 func _ready() -> void:
 	start_button.pressed.connect(_on_start_pressed)
@@ -13,7 +13,6 @@ func _ready() -> void:
 	exit_button.pressed.connect(_on_quit_pressed)
 	options_menu.closed.connect(_on_options_closed)
 	start_button.grab_focus()
-	$AudioStreamPlayer.play()
 
 func _on_options_pressed() -> void:
 	options_menu.open()
