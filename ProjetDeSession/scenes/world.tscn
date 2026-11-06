@@ -33,3 +33,6 @@ vframes = 7
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player" unique_id=1390021596]
 shape = SubResource("RectangleShape2D_n72wn")
+
+[node name="Camera2D" type="Camera2D" parent="Player" unique_id=1005596445]
+zoom = Vector2(5, 5)

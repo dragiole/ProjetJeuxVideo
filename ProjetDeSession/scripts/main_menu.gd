@@ -6,12 +6,14 @@ extends Control
 @onready var options_button : Button = %OptionsButton
 @onready var exit_button : Button = %ExitButton
 
+
 func _ready() -> void:
 	start_button.pressed.connect(_on_start_pressed)
 	options_button.pressed.connect(_on_options_pressed)
 	exit_button.pressed.connect(_on_quit_pressed)
 	options_menu.closed.connect(_on_options_closed)
 	start_button.grab_focus()
+	$AudioStreamPlayer.play()
 
 func _on_options_pressed() -> void:
 	options_menu.open()

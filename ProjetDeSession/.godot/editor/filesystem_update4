@@ -4,3 +4,5 @@ res://scenes/menu/main_menu.gd
 res://option_menu.gd
 res://scenes/menu/option_menu.tscn
 res://scripts/main_menu.gd
+res://Scenes/world.tscn
+res://player.gd
